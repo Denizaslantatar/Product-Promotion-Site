@@ -9,5 +9,5 @@ export default {
 };
 </script>
 <template>
-    <div>Anasayfa</div>
+    <div>İletişim</div>
 </template>

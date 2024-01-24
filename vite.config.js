@@ -15,15 +15,15 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-      server: {
-        port: 1212,
+  server: {
+    port: 1212,
+  },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        charset: false,
+      },
     },
-        css: {
-        preprocessorOptions: {
-            scss: {
-                charset: false,
-            },
-        },
         devSourcemap: true,
-    },
+      },
 })
