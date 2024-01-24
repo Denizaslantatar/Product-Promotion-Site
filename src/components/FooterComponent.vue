@@ -12,9 +12,8 @@ export default {
 <template>
     <footer class="bg-success text-center text-lg-start text-white fixed-bottom" style="max-height: 400px; overflow-y: auto">
         <!-- Grid container -->
-        <div class="container p-4">
-            <!--Grid row-->
-            <div class="row my-4">
+        <div class="container p-3">
+            <div class="row my-3">
                 <!--Grid column-->
                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
                     <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto" style="width: 150px; height: 150px">
@@ -31,62 +30,50 @@ export default {
                     </ul>
                 </div>
                 <!--Grid column-->
-                <!--Grid column-->
-                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                    <h5 class="text-uppercase mb-4">Hizmetlerimiz</h5>
+                <div class="col-lg-3 col-md-6 mb-3 mb-md-0">
+                    <h5 class="text-uppercase mb-3">Hizmetlerimiz</h5>
                     <ul class="list-unstyled">
                         <li class="mb-2">
-                            <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>When your pet is missing</a>
+                            <span class="text-white">Cami çinicilik</span>
                         </li>
                         <li class="mb-2">
-                            <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Recently found</a>
+                            <span class="text-white">Cami çinicilik</span>
                         </li>
                         <li class="mb-2">
-                            <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>How to adopt?</a>
+                            <span class="text-white">Hat</span>
                         </li>
                         <li class="mb-2">
-                            <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Pets for adoption</a>
+                            <span class="text-white">Cami çinicilik</span>
                         </li>
                         <li class="mb-2">
-                            <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Material gifts</a>
-                        </li>
-                        <li class="mb-2">
-                            <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Help with walks</a>
-                        </li>
-                        <li class="mb-2">
-                            <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Volunteer activities</a>
+                            <span class="text-white">Cami çinicilik</span>
                         </li>
                     </ul>
                 </div>
                 <!--Grid column-->
-                <!--Grid column-->
-                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                    <h5 class="text-uppercase mb-4">Referanslarımız</h5>
+                <div class="col-lg-3 col-md-6 mb-3 mb-md-0">
+                    <h5 class="text-uppercase mb-3">Referanslarımız</h5>
                     <ul class="list-unstyled">
                         <li class="mb-2">
-                            <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>General information</a>
+                            <span class="text-white">Cami çinicilik</span>
                         </li>
                         <li class="mb-2">
-                            <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>About the shelter</a>
+                            <span class="text-white">Cami çinicilik</span>
                         </li>
                         <li class="mb-2">
-                            <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Statistic data</a>
+                            <span class="text-white">Cami çinicilik</span>
                         </li>
                         <li class="mb-2">
-                            <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Job</a>
+                            <span class="text-white">Cami çinicilik</span>
                         </li>
                         <li class="mb-2">
-                            <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Tenders</a>
-                        </li>
-                        <li class="mb-2">
-                            <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Contact</a>
+                            <span class="text-white">Cami çinicilik</span>
                         </li>
                     </ul>
                 </div>
                 <!--Grid column-->
-                <!--Grid column-->
                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                    <h5 class="text-bold mb-4">İLETİŞİM</h5>
+                    <h5 class="text-bold mb-3">İLETİŞİM</h5>
                     <ul class="list-unstyled">
                         <li>
                             <p><img src="../assets/icons/icons8-address.png" alt="telefon" />Bingöl / Merkez</p>
@@ -99,16 +86,12 @@ export default {
                         </li>
                     </ul>
                 </div>
-                <!--Grid column-->
             </div>
-            <!--Grid row-->
         </div>
         <!-- Grid container -->
-        <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(1, 15, 5, 0.2)">
             © 2020 Cami Çinicilik:
-            <a class="text-white" href="#">Tüm hakları saklıdır.</a>
+            <span class="text-white">Tüm hakları saklıdır.</span>
         </div>
-        <!-- Copyright -->
     </footer>
 </template>

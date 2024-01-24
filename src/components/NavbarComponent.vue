@@ -35,7 +35,7 @@ export default {
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Ürünler </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Kürsü</a></li>
-                            <li><a class="dropdown-item" href="#">Mihrap</a></li>
+                            <li><a class="dropdown-item" href="/urunler-mihrap">Mihrap</a></li>
                             <li><a class="dropdown-item" href="#">Müezzinlik</a></li>
                             <li><a class="dropdown-item" href="#">Karolar</a></li>
                             <li><a class="dropdown-item" href="#">Kenarlıklar</a></li>

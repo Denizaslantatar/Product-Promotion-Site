@@ -4,6 +4,7 @@ import AboutUs from '../pages/AboutUs.vue'
 import ContactHome from '../pages/ContactHome.vue'
 import GalleryHome from '../pages/GalleryHome.vue'
 import CiniArt from '../pages/CiniArt.vue'
+import MihrapHome from '../pages/Products/MihrapHome.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -28,10 +29,15 @@ const router = createRouter({
       name: 'galeri',
       component: GalleryHome,
     },
-      {
+    {
       path: '/cini-sanati',
       name: 'cini-sanati',
       component: CiniArt,
+    },
+    {
+      path: '/urunler-mihrap',
+      name: 'urunler-mihrap',
+      component: MihrapHome,
     },
   ]
 })
