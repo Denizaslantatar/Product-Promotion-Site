@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-    <footer class="bg-success text-center text-lg-start text-white fixed-bottom">
+    <footer class="bg-success text-center text-lg-start text-white fixed-bottom" style="max-height: 400px; overflow-y: auto">
         <!-- Grid container -->
         <div class="container p-4">
             <!--Grid row-->
@@ -112,4 +112,3 @@ export default {
         <!-- Copyright -->
     </footer>
 </template>
-,
