@@ -9,5 +9,5 @@ export default {
 };
 </script>
 <template>
-    <h5>Anasayfa</h5>
+    <img src="../assets//images/cami.jpg" alt="cami" style="width: 100%" height="650px" />
 </template>
