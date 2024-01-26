@@ -16,8 +16,8 @@ export default {
             <div class="row my-3">
                 <!--Grid column-->
                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                    <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto" style="width: 150px; height: 150px">
-                        <img src="https://mdbootstrap.com/img/Photos/new-templates/animal-shelter/logo.png" height="70" alt="" loading="lazy" />
+                    <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto" style="width: 100px; height: 100px">
+                        <img src="../assets/logo.png" height="70" alt="" loading="lazy" />
                     </div>
                     <p class="text-center">Cami Çinicilik Hizmetleri</p>
                     <ul class="list-unstyled d-flex flex-row justify-content-center">

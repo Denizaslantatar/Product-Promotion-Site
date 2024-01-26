@@ -9,5 +9,5 @@ export default {
 };
 </script>
 <template>
-    <div>İletişim</div>
+    <h5>İletişim sayfası</h5>
 </template>

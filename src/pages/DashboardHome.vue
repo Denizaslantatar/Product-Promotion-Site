@@ -9,5 +9,5 @@ export default {
 };
 </script>
 <template>
-    <div>Anasayfa</div>
+    <h5>Anasayfa</h5>
 </template>

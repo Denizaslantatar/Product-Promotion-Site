@@ -9,5 +9,5 @@ export default {
 };
 </script>
 <template>
-    <div>ÇİNİ SANATI</div>
+    <h5>ÇİNİ SANATI sayfası yapalım mı?</h5>
 </template>
