@@ -1,7 +1,9 @@
 @import "base/color";
 @import "components/card";
+@import "pages/gallery";
 
 body {
     overflow-x: hidden;
     min-height: 100vh;
+    place-items: center;
 }
