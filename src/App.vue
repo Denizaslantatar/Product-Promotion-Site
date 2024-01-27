@@ -10,9 +10,7 @@ export default {
 };
 </script>
 <template>
-    <div>
-        <NavbarComponent />
-        <RouterView />
-        <FooterComponent />
-    </div>
+    <NavbarComponent />
+    <RouterView />
+    <FooterComponent />
 </template>
