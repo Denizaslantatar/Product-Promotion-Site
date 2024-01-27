@@ -29,10 +29,10 @@ export default {
                         <router-link class="nav-link active text-white" aria-current="page" to="/cini-sanati">Çini Sanatı</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link class="nav-link" to="/galeri">Galeri</router-link>
+                        <router-link class="nav-link text-white" to="/galeri">Galeri</router-link>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Ürünler </a>
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Ürünler </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Kürsü</a></li>
                             <li><a class="dropdown-item" href="/urunler-mihrap">Mihrap</a></li>
@@ -43,10 +43,10 @@ export default {
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <router-link class="nav-link" to="/hakkimizda">Hakkımızda</router-link>
+                        <router-link class="nav-link text-white" to="/hakkimizda">Hakkımızda</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link class="nav-link" to="/iletisim">İletişim</router-link>
+                        <router-link class="nav-link text-white" to="/iletisim">İletişim</router-link>
                     </li>
                 </ul>
             </div>

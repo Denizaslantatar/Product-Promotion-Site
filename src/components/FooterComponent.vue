@@ -22,16 +22,22 @@ export default {
                     <p class="text-center">Cami Çinicilik Hizmetleri</p>
                     <ul class="list-unstyled d-flex flex-row justify-content-center">
                         <li>
-                            <a href="#"><img width="24" height="24" src="../assets/icons/icons8-facebook.svg" alt="facebook" /></a>
+                            <a href="#"><img width="25" height="25" src="../assets/icons/icons8-facebook.svg" alt="facebook-icon" /></a>
                         </li>
                         <li>
-                            <a href="#"><img width="24" height="24" src="../assets/icons/icons8-instagram.svg" alt="facebook" /></a>
+                            <a href="#"><img width="25" height="25" src="../assets/icons/icons8-instagram.svg" alt="instagram-icon" /></a>
+                        </li>
+                        <li>
+                            <a href="#"><img width="25" height="25" src="../assets/icons/icons8-tiktok.svg" alt="tiktok-icon" /></a>
+                        </li>
+                        <li>
+                            <a href="#"><img width="26" height="26" src="../assets/icons/icons8-youtube.svg" alt="youtube-icon" /></a>
                         </li>
                     </ul>
                 </div>
                 <!--Grid column-->
-                <div class="col-lg-3 col-md-6 mb-3 mb-md-0">
-                    <h5 class="text-uppercase mb-3">Hizmetlerimiz</h5>
+                <div class="col-lg-3 col-md-6 mb-2 mb-md-0">
+                    <h5 class="text-uppercase mb-2">Hizmetlerimiz</h5>
                     <ul class="list-unstyled">
                         <li class="mb-2">
                             <span class="text-white">Cami çinicilik</span>
@@ -51,8 +57,8 @@ export default {
                     </ul>
                 </div>
                 <!--Grid column-->
-                <div class="col-lg-3 col-md-6 mb-3 mb-md-0">
-                    <h5 class="text-uppercase mb-3">Referanslarımız</h5>
+                <div class="col-lg-3 col-md-6 mb-2 mb-md-0">
+                    <h5 class="text-uppercase mb-2">Referanslarımız</h5>
                     <ul class="list-unstyled">
                         <li class="mb-2">
                             <span class="text-white">Cami çinicilik</span>
@@ -72,17 +78,17 @@ export default {
                     </ul>
                 </div>
                 <!--Grid column-->
-                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                    <h5 class="text-bold mb-3">İLETİŞİM</h5>
+                <div class="col-lg-3 col-md-6 mb-2">
+                    <h5 class="text-bold mb-2">İLETİŞİM</h5>
                     <ul class="list-unstyled">
                         <li>
-                            <p><img src="../assets/icons/icons8-address.png" alt="telefon" />Bingöl / Merkez</p>
+                            <p><img src="../assets/icons/icons8-address-25.png" alt="telefon" /> Bingöl / Merkez</p>
                         </li>
                         <li>
-                            <p><img src="../assets/icons/icons8-phone.svg" alt="telefon" />+90 552 807 60 89</p>
+                            <p><img src="../assets/icons/icons8-phone.svg" alt="telefon" /> +90 552 807 60 89</p>
                         </li>
                         <li>
-                            <p><img src="../assets/icons/icons8-mail-50.png" alt="telefon" />camicinicilik@gmail.com</p>
+                            <p><img src="../assets/icons/icons8-letter-25.png" alt="telefon" /> camicinicilik@gmail.com</p>
                         </li>
                     </ul>
                 </div>
