@@ -43,16 +43,25 @@ export default {
                             <span class="text-white">Cami çinicilik</span>
                         </li>
                         <li class="mb-2">
-                            <span class="text-white">Cami çinicilik</span>
+                            <span class="text-white">Otel çinicilik</span>
                         </li>
                         <li class="mb-2">
-                            <span class="text-white">Hat</span>
+                            <span class="text-white">Hamam Çinicilik</span>
                         </li>
                         <li class="mb-2">
-                            <span class="text-white">Cami çinicilik</span>
+                            <span class="text-white">Şadırvan Çinicilik</span>
                         </li>
                         <li class="mb-2">
-                            <span class="text-white">Cami çinicilik</span>
+                            <span class="text-white">Villa çinicilik</span>
+                        </li>
+                        <li class="mb-2">
+                            <span class="text-white">Nakkaş</span>
+                        </li>
+                        <li class="mb-2">
+                            <span class="text-white">Altın Varak</span>
+                        </li>
+                        <li class="mb-2">
+                            <span class="text-white">Hat Yazıları</span>
                         </li>
                     </ul>
                 </div>
@@ -61,19 +70,25 @@ export default {
                     <h5 class="text-uppercase mb-2">Referanslarımız</h5>
                     <ul class="list-unstyled">
                         <li class="mb-2">
-                            <span class="text-white">Cami çinicilik</span>
+                            <span class="text-white">Gaziantep </span>
                         </li>
                         <li class="mb-2">
-                            <span class="text-white">Cami çinicilik</span>
+                            <span class="text-white">Erzurum</span>
                         </li>
                         <li class="mb-2">
-                            <span class="text-white">Cami çinicilik</span>
+                            <span class="text-white">İstanbul</span>
                         </li>
                         <li class="mb-2">
-                            <span class="text-white">Cami çinicilik</span>
+                            <span class="text-white">Afyon</span>
                         </li>
                         <li class="mb-2">
-                            <span class="text-white">Cami çinicilik</span>
+                            <span class="text-white">Kocaeli</span>
+                        </li>
+                        <li class="mb-2">
+                            <span class="text-white">Tekirdağ</span>
+                        </li>
+                        <li class="mb-2">
+                            <span class="text-white">Denizli</span>
                         </li>
                     </ul>
                 </div>

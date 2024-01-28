@@ -34,11 +34,12 @@ export default {
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Ürünler </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Kürsü</a></li>
+                            <li><a class="dropdown-item" href="#">Mimber</a></li>
                             <li><a class="dropdown-item" href="/urunler-mihrap">Mihrap</a></li>
+                            <li><a class="dropdown-item" href="#">Kürsü</a></li>
                             <li><a class="dropdown-item" href="#">Müezzinlik</a></li>
                             <li><a class="dropdown-item" href="#">Karolar</a></li>
-                            <li><a class="dropdown-item" href="#">Kenarlıklar</a></li>
+                            <li><a class="dropdown-item" href="#">Kenar Sular</a></li>
                             <li><a class="dropdown-item" href="#">El Dekorları</a></li>
                         </ul>
                     </li>
