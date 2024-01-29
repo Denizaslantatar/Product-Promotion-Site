@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-    <footer class="bg-success text-center text-lg-start text-white fixed-bottom">
+    <footer class="bg-success text-center text-lg-start text-white">
         <!-- Grid container -->
         <div class="container p-2">
             <div class="row my-2">

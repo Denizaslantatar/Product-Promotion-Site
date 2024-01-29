@@ -5,6 +5,13 @@
 @import "pages/gallery";
 @import "pages/contact";
 
+:root {
+    --menuHeight: 50px;
+    --footerSize: 340px;
+}
 body {
     min-height: 100vh;
+}
+main {
+    min-height: calc(100vh - var(--menuHeight) - var(--footerSize));
 }
