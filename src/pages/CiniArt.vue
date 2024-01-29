@@ -9,5 +9,5 @@ export default {
 };
 </script>
 <template>
-    <h5>ÇİNİ SANATI sayfası yapalım mı?</h5>
+    <img src="../assets//images/block.jpg" alt="" />
 </template>
