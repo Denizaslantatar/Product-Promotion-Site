@@ -9,7 +9,9 @@ export default {
 };
 </script>
 <template>
-    <h5>Galeri sayfası</h5>
+    <div class="header">
+        <h5 class="text-center p-2">Galeri</h5>
+    </div>
     <div class="gallery">
         <span style="--i: 1">
             <img src="https://images4.alphacoders.com/678/thumb-1920-678317.jpg" alt="" />

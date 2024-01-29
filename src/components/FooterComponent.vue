@@ -19,7 +19,7 @@ export default {
                     <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-1 mx-auto" style="width: 100px; height: 100px">
                         <img src="../assets/logo.png" height="70" alt="" loading="lazy" />
                     </div>
-                    <p class="text-center">Cami Çinicilik Hizmetleri</p>
+                    <p class="text-center" style="font-style: italic; font-weight: bold">Cami Çinicilik Hizmetleri</p>
                     <ul class="list-unstyled d-flex flex-row justify-content-center">
                         <li>
                             <a href="#"><img width="25" height="25" src="../assets/icons/icons8-facebook.svg" alt="facebook-icon" /></a>
