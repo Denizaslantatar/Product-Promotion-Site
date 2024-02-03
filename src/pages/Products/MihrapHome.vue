@@ -6,9 +6,6 @@ export default {
             MihrapData,
         };
     },
-    mounted() {
-        console.log("MihrapData", this.MihrapData);
-    },
 };
 </script>
 <template>
