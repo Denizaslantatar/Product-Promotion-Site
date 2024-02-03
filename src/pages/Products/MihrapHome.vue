@@ -1,11 +1,14 @@
 <script>
+import MihrapData from "@/JSON/mihrapJason.json";
 export default {
     data() {
-        return {};
+        return {
+            MihrapData,
+        };
     },
-    computed: {},
-    methods: {},
-    async mounted() {},
+    mounted() {
+        console.log("MihrapData", this.MihrapData);
+    },
 };
 </script>
 <template>
@@ -13,16 +16,17 @@ export default {
         <h5 class="text-center p-2">Mihrap</h5>
     </div>
     <section id="mihrapCard">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="row row-cols-1 row-cols-md-3 g-4" v-for="item in MihrapData?.Mihrap" :key="item">
             <div class="col">
                 <div class="card h-100">
-                    <img src="../../assets/images/Mihrap/1-180x290-cm.jpeg" class="card-img-top" alt="..." />
+                    <img :src="'@/assets/images/Mihrap/' + item.imageUrl" class="card-img-top" alt="..." />
+                    {{ item.imageUrl }}
                     <div class="card-body">
-                        <h5 class="card-title">Geleneksel Zarafet: İlk Mihrap</h5>
-                        <p class="card-text text-danger fw-bold">180x290 cm</p>
+                        <h5 class="card-title">{{ item.title }}</h5>
+                        <p class="card-text text-danger fw-bold">{{ item.text }}</p>
                     </div>
                     <div class="card-footer">
-                        <small class="text-body-secondary">Mihrap 1</small>
+                        <small class="text-body-secondary">{{ item.footer }}</small>
                     </div>
                 </div>
             </div>

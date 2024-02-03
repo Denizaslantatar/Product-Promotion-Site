@@ -1,0 +1,16 @@
+{
+    "Mihrap": [
+        {
+            "title": "Geleneksel Zarafet: İlk Mihrap",
+            "text": "180x290 cm",
+            "footer": "Mihrap 1",
+            "imageUrl":  "1-180x290-cm.jpeg"
+        },
+        {
+            "type": "Zamanın İzleri: Antik Desenli Mihrap",
+            "text": "180x290 cm",
+            "footer": "Mihrap 1",
+            "imageUrl":  "../../assets/images/Mihrap/2-180x290-cm.jpeg"
+        }
+    ]
+}
