@@ -8,4 +8,8 @@ export default {
     async mounted() {},
 };
 </script>
-<template><h5>Mihrap Sayfası</h5></template>
+<template>
+    <div class="header">
+        <h5 class="text-center p-2">Mihrap</h5>
+    </div>
+</template>

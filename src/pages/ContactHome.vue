@@ -17,11 +17,11 @@ export default {
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <p class="text-center pt-5">
+                        <p class="text-center pt-3">
                             Bizimle iletişime geçmenizden memnuniyet duyarız. Sorularınızı, geri bildirimlerinizi veya işbirliği tekliflerinizi bekliyoruz. Size daha iyi hizmet verebilmemiz için bize
                             aşağıdaki iletişim bilgilerinden ulaşabilirsiniz.
                         </p>
-                        <ul class="list-unstyled d-flex justify-content-center gap-4">
+                        <ul class="list-unstyled d-sm-flex justify-content-center gap-4">
                             <li>
                                 <p class="mb-2"><img src="../assets/icons/phone.png" alt="telefon" /> +90 552 807 60 89</p>
                             </li>

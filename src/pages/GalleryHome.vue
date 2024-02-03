@@ -12,7 +12,7 @@ export default {
     <div class="header">
         <h5 class="text-center p-2">Galeri</h5>
     </div>
-    <div class="gallery">
+    <!-- <div class="gallery">
         <span style="--i: 1">
             <img src="https://images4.alphacoders.com/678/thumb-1920-678317.jpg" alt="" />
         </span>
@@ -37,5 +37,5 @@ export default {
         <span style="--i: 8">
             <img src="https://images4.alphacoders.com/866/thumb-1920-866812.png" alt="" />
         </span>
-    </div>
+    </div> -->
 </template>
