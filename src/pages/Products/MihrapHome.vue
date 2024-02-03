@@ -17,7 +17,7 @@ export default {
     </div>
     <section id="mihrapCard">
         <div class="row row-cols-lg-3 row-cols-md-3 row-cols-1 g-4">
-            <div class="col" v-for="item in MihrapData?.Mihrap" :key="item">
+            <div class="col-12" v-for="item in MihrapData?.Mihrap" :key="item">
                 <div class="card h-100">
                     <img :src="'/images/Mihrap/' + item.imageUrl" class="card-img-top" alt="..." />
                     <div class="card-body">

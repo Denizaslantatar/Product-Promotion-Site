@@ -28,10 +28,10 @@ export default {
 <template>
     <section class="swiperContainer">
         <swiper :cssMode="true" :navigation="true" :pagination="true" :mousewheel="true" :keyboard="true" :modules="modules" class="mySwiper">
-            <swiper-slide><img src="../assets//images/cami.jpg" alt="cami" /></swiper-slide>
-            <swiper-slide><img src="../assets//images/cami2.jpg" alt="cami" /></swiper-slide><swiper-slide><img src="../assets//images/cami.jpg" alt="cami" /></swiper-slide>
-            <swiper-slide><img src="../assets//images/cami2.jpg" alt="cami" /></swiper-slide><swiper-slide><img src="../assets//images/cami.jpg" alt="cami" /></swiper-slide>
-            <swiper-slide><img src="../assets//images/cami.jpg" alt="cami" /></swiper-slide>
+            <swiper-slide><img src="/public/images/cami.jpg" alt="cami" /></swiper-slide>
+            <swiper-slide><img src="/public/images/cami2.jpg" alt="cami" /></swiper-slide><swiper-slide><img src="/public/images/cami.jpg" alt="cami" /></swiper-slide>
+            <swiper-slide><img src="/public/images/cami2.jpg" alt="cami" /></swiper-slide><swiper-slide><img src="/public/images/cami.jpg" alt="cami" /></swiper-slide>
+            <swiper-slide><img src="/public/images/cami.jpg" alt="cami" /></swiper-slide>
         </swiper>
     </section>
     <header id="header">
