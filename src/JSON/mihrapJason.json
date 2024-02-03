@@ -4,13 +4,37 @@
             "title": "Geleneksel Zarafet: İlk Mihrap",
             "text": "180x290 cm",
             "footer": "Mihrap 1",
-            "imageUrl":  "1-180x290-cm.jpeg"
+            "imageUrl": "1-180x290-cm.jpeg"
         },
         {
-            "type": "Zamanın İzleri: Antik Desenli Mihrap",
+            "title": "Zamanın İzleri: Antik Desenli Mihrap",
             "text": "180x290 cm",
-            "footer": "Mihrap 1",
-            "imageUrl":  "../../assets/images/Mihrap/2-180x290-cm.jpeg"
+            "footer": "Mihrap 2",
+            "imageUrl":  "2-180x290-cm.jpeg"
+        },
+        {
+            "title": "Renkli Doku: Zarif Mavi Mihrap",
+            "text": "220x370 cm",
+            "footer": "Mihrap 3",
+            "imageUrl":  "3-220x370-cm.jpeg"
+        },
+        {
+            "title": "Geçmişten Günümüze: Modern Çini Mihrap",
+            "text": "230x400 cm",
+            "footer": "Mihrap 4",
+            "imageUrl":  "4-230x400-cm.jpeg"
+        },
+        {
+            "title": "Deniz Rüzgarları: Deniz Mavisi Mihrap",
+            "text": "240x400 cm",
+            "footer": "Mihrap 5",
+            "imageUrl":  "5-240x400-cm.jpeg"
+        },
+        {
+            "title": "Gök kubbe: Gökyüzü Mihrap",
+            "text": "240x400 cm",
+            "footer": "Mihrap 6",
+            "imageUrl":  "6-240x400-cm.jpeg"
         }
     ]
 }
