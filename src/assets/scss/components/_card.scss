@@ -8,3 +8,22 @@
         margin: 1rem 2rem;
     }
 }
+#mihrapCard {
+    position: relative;
+    z-index: -500;
+    margin: 1rem 11rem;
+    .card-title,
+    .card-text {
+        @media (max-width: 768px) {
+            font-size: 0.7rem;
+        }
+    }
+    .row {
+        .col {
+            @media (max-width: 320px) {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+        }
+    }
+}
