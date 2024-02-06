@@ -9,7 +9,7 @@ export default {
         this.isLoading = true;
         setTimeout(() => {
             this.isLoading = false;
-        }, 1000);
+        }, 190);
     },
 };
 </script>
@@ -38,8 +38,10 @@ export default {
                             </li>
                         </ul>
                     </div>
-                    <div class="spinner-border text-success" role="status" v-if="isLoading">
-                        <span class="visually-hidden">Yükleniyor...</span>
+                    <div class="text-center">
+                        <div class="spinner-border" role="status" v-if="isLoading">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
                     </div>
                     <div class="col-md-12">
                         <iframe
@@ -57,11 +59,3 @@ export default {
         </section>
     </main>
 </template>
-<style>
-.spinner-border {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-</style>
