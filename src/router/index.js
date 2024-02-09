@@ -4,7 +4,10 @@ import AboutUs from '../pages/AboutUs.vue'
 import ContactHome from '../pages/ContactHome.vue'
 import GalleryHome from '../pages/GalleryHome.vue'
 import CiniArt from '../pages/CiniArt.vue'
+// Products
 import MihrapHome from '../pages/Products/MihrapHome.vue'
+import MimberHome from '../pages/Products/MimberHome.vue'
+import KaroHome from '../pages/Products/KaroHome.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -38,6 +41,16 @@ const router = createRouter({
       path: '/urunler-mihrap',
       name: 'urunler-mihrap',
       component: MihrapHome,
+    },
+    {
+      path: '/urunler-mimber',
+      name: 'urunler-mimber',
+      component: MimberHome,
+    },
+    {
+      path: '/urunler-karo',
+      name: 'urunler-karo',
+      component: KaroHome,
     },
   ]
 })
