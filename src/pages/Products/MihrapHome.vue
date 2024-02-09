@@ -1,5 +1,5 @@
 <script>
-import MihrapData from "@/JSON/mihrapJason.json";
+import MihrapData from "@/JSON/mihrapData.json";
 export default {
     data() {
         return {
