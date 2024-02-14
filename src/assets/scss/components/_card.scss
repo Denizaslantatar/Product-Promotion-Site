@@ -33,3 +33,28 @@
         align-items: center;
     }
 }
+#karoCard {
+    position: relative;
+    z-index: -500;
+    margin: 1rem 11rem;
+    .card-title,
+    .card-text {
+        @media (max-width: 768px) {
+            font-size: 0.7rem;
+        }
+    }
+    .row {
+        .col {
+            @media (max-width: 320px) {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+        }
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
