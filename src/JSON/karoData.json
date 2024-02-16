@@ -6,99 +6,119 @@
         },
         {
             "title": "Karo 2",
-            "imageUrl": "iyk01-2.jpg"
+            "imageUrl": "2.png"
         },
         {
             "title": "Karo 3",
-            "imageUrl": "iyk01-3.jpg"
+            "imageUrl": "3.png"
         },
         {
             "title": "Karo 4",
-            "imageUrl": "iyk01-4.jpg"
+            "imageUrl": "4.png"
         },
         {
             "title": "Karo 5",
-            "imageUrl": "iyk01-5.jpg"
+            "imageUrl": "5.png"
         },
         {
             "title": "Karo 6",
-            "imageUrl": "iyk02.jpg"
+            "imageUrl": "6.png"
         },
         {
             "title": "Karo 7",
-            "imageUrl": "iyk03-2.jpg"
+            "imageUrl": "7.png"
         },
         {
             "title": "Karo 8",
-            "imageUrl": "iyk03.jpg"
+            "imageUrl": "8.png"
         },
         {
             "title": "Karo 9",
-            "imageUrl": "iyk04.jpg"
+            "imageUrl": "9.png"
         },
         {
             "title": "Karo 10",
-            "imageUrl": "iyk05.jpg"
+            "imageUrl": "10.png"
         },
         {
             "title": "Karo 11",
-            "imageUrl": "iyk06.jpg"
+            "imageUrl": "11.png"
         },
         {
             "title": "Karo 12",
-            "imageUrl": "iyk07.jpg"
+            "imageUrl": "12.png"
         },
         {
             "title": "Karo 13",
-            "imageUrl": "iyk08.jpg"
+            "imageUrl": "13.png"
         },
         {
             "title": "Karo 14",
-            "imageUrl": "iyk09.jpg"
+            "imageUrl": "14.png"
         },
         {
             "title": "Karo 15",
-            "imageUrl": "iyk10-2.jpg"
+            "imageUrl": "15.png"
         },
         {
             "title": "Karo 16",
-            "imageUrl": "iyk10.jpg"
-        },
-        {
-            "title": "Karo 16",
-            "imageUrl": "iyk11.jpg"
+            "imageUrl": "16.png"
         },
         {
             "title": "Karo 17",
-            "imageUrl": "iyk12.jpg"
+            "imageUrl": "17.png"
         },
         {
             "title": "Karo 18",
-            "imageUrl": "iyk15.jpg"
+            "imageUrl": "18.png"
         },
         {
             "title": "Karo 19",
-            "imageUrl": "iyk17.jpg"
+            "imageUrl": "19.png"
         },
         {
             "title": "Karo 20",
-            "imageUrl": "iyk18.jpg"
+            "imageUrl": "20.png"
         },
         {
             "title": "Karo 21",
-            "imageUrl": "iyk19.jpg"
+            "imageUrl": "21.png"
         },
         {
             "title": "Karo 22",
-            "imageUrl": "iyk23.jpg"
+            "imageUrl": "22.png"
         },
         {
             "title": "Karo 23",
-            "imageUrl": "iyk24-2.jpg"
+            "imageUrl": "23.png"
         },
         {
             "title": "Karo 24",
-            "imageUrl": "iyk24.jpg"
+            "imageUrl": "24.png"
+        },
+        {
+            "title": "Karo 25",
+            "imageUrl": "25.png"
+        },
+        {
+            "title": "Karo 26",
+            "imageUrl": "26.png"
+        },
+        {
+            "title": "Karo 27",
+            "imageUrl": "27.png"
+        },
+        {
+            "title": "Karo 28",
+            "imageUrl": "28.png"
+        },
+        {
+            "title": "Karo 29",
+            "imageUrl": "29.png"
+        },
+        {
+            "title": "Karo 30",
+            "imageUrl": "30.png"
         }
     ]
 }
