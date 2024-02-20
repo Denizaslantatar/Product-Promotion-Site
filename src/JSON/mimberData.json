@@ -1,9 +1,49 @@
 {
     "Mimber": [
         {
-            "text": "180x290 cm",
+            "text": "270x530 cm",
             "footer": "Mimber 1",
             "imageUrl": "270-530-1.jpeg"
+        },
+        {
+            "text": "290x525 cm",
+            "footer": "Mimber 2",
+            "imageUrl": "290-525-2.jpeg"
+        },
+        {
+            "text": "300x550 cm",
+            "footer": "Mimber 3",
+            "imageUrl": "300-550-3.jpeg"
+        },
+        {
+            "text": "300x575 cm",
+            "footer": "Mimber 4",
+            "imageUrl": "300-575-4.jpeg"
+        },
+        {
+            "text": "340x850 cm",
+            "footer": "Mimber 5",
+            "imageUrl": "340-850-5.jpeg"
+        },
+        {
+            "text": "350x580 cm",
+            "footer": "Mimber 6",
+            "imageUrl": "350-580-6.jpeg"
+        },
+        {
+            "text": "380x680 cm",
+            "footer": "Mimber 7",
+            "imageUrl": "380-680-7.jpeg"
+        },
+        {
+            "text": "395x715 cm",
+            "footer": "Mimber 9",
+            "imageUrl": "395-715-9.jpeg"
+        },
+        {
+            "text": "440x780 cm",
+            "footer": "Mimber 10",
+            "imageUrl": "440-780-10.jpeg"
         }
     ]
 }

@@ -21,7 +21,7 @@ export default {
                 <div class="card">
                     <img :src="'/images/Mimber/' + item.imageUrl" class="card-img-top" alt="..." />
                     <div class="card-body">
-                        <h5 class="card-title">{{ item.title }}</h5>
+                        <h5 class="card-title">{{ item.text }}</h5>
                     </div>
                 </div>
             </div>
