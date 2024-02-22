@@ -37,7 +37,7 @@ export default {
                             <li><a class="dropdown-item" href="/urunler-mimber">Mimber</a></li>
                             <li><a class="dropdown-item" href="/urunler-mihrap">Mihrap</a></li>
                             <li><a class="dropdown-item" href="#">Kürsü</a></li>
-                            <li><a class="dropdown-item" href="#">Müezzinlik</a></li>
+                            <li><a class="dropdown-item" href="/urunler-muezzinlik">Müezzinlik</a></li>
                             <li><a class="dropdown-item" href="/urunler-karo">Karolar</a></li>
                             <li><a class="dropdown-item" href="#">Kenar Sular</a></li>
                             <li><a class="dropdown-item" href="#">El Dekorları</a></li>

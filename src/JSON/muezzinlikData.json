@@ -1,0 +1,36 @@
+{
+    "Muezzinlik": [
+        {
+            "imageUrl": "muezzinlik-1.jpg",
+            "footer": "Müezzinlik 1"
+        },
+        {
+            "imageUrl": "muezzinlik-1.jpg",
+            "footer": "Müezzinlik 2"
+        },
+        {
+            "imageUrl": "muezzinlik-1.jpg",
+            "footer": "Müezzinlik 3"
+        },
+        {
+            "imageUrl": "muezzinlik-1.jpg",
+            "footer": "Müezzinlik 1"
+        },
+        {
+            "imageUrl": "muezzinlik-1.jpg",
+            "footer": "Müezzinlik 2"
+        },
+        {
+            "imageUrl": "muezzinlik-1.jpg",
+            "footer": "Müezzinlik 3"
+        },
+        {
+            "imageUrl": "muezzinlik-1.jpg",
+            "footer": "Müezzinlik 2"
+        },
+        {
+            "imageUrl": "muezzinlik-1.jpg",
+            "footer": "Müezzinlik 3"
+        }
+    ]
+}
