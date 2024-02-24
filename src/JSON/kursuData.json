@@ -1,0 +1,24 @@
+{
+    "Kursu": [
+            {
+                "imageUrl": "Cami-Kürsü-1.jpg",
+                "footer": "Kürsü 1"
+            },
+            {
+                "imageUrl": "Cami-Kürsü-2.jpg",
+                "footer": "Kürsü 2"
+            },
+            {
+                "imageUrl": "Cami-Kürsü-3.jpg",
+                "footer": "Kürsü 3"
+            },
+            {
+                "imageUrl": "Cami-Kürsü-4.jpg",
+                "footer": "Kürsü 4"
+            },
+            {
+                "imageUrl": "Cami-Kürsü-5.jpg",
+                "footer": "Kürsü 5"
+            }
+    ]
+}
