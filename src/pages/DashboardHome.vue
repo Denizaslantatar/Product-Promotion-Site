@@ -22,25 +22,25 @@ export default {};
             <div class="col-1-of-2">
                 <div class="composition">
                     <img
-                        srcset="/images/dashphoto1.jpg 300w, /images/dashphoto1.jpg 1000w"
+                        srcset="/images/DashboardCini.png 300w, /images/DashboardCini.png 1000w"
                         sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                         alt="Photo 1"
                         class="composition__photo composition__photo--p1"
-                        src="/images/dashphoto1.jpg"
+                        src="/images/DashboardCini.png"
                     />
                     <img
-                        srcset="/images/dashphoto2.jpg 300w, /images/dashphoto2.jpg 1000w"
+                        srcset="/images/DashboardCini2.jpg 300w, /images/DashboardCini2.jpg 1000w"
                         sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                         alt="Photo 2"
                         class="composition__photo composition__photo--p2"
-                        src="/images/dashphoto2.jpg"
+                        src="/images/DashboardCini2.jpg"
                     />
                     <img
-                        srcset="/images/dashphoto3.jpg 300w, /images/dashphoto3.jpg 1000w"
+                        srcset="/images/DashboardCini3.jpg 300w, /images/DashboardCini3.jpg 1000w"
                         sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                         alt="Photo 3"
                         class="composition__photo composition__photo--p3"
-                        src="/images/dashphoto3.jpg"
+                        src="/images/DashboardCini3.jpg"
                     />
                 </div>
             </div>
