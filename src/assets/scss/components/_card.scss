@@ -82,6 +82,29 @@
     }
 }
 #kursuCard {
+    position: relative;
+
+    margin: 1rem 11rem;
+    .card-title,
+    .card-text {
+        @media (max-width: 768px) {
+            font-size: 0.7rem;
+        }
+    }
+    .row {
+        .col {
+            @media (max-width: 320px) {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+        }
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
     img {
         // object-fit: contain;
         width: auto;
@@ -90,33 +113,33 @@
 }
 
 // Galeri için kullanım
-.masonary {
-    --colItem: 6;
-    column-count: var(--colItem);
-    column-gap: 10px;
-    &-item {
-        margin: 0;
-        display: grid;
-        grid-template-rows: 1fr auto;
-        margin-bottom: 10px;
-        break-inside: avoid;
-        border-radius: 0.75rem;
-        overflow: hidden;
-        position: relative;
-        cursor: pointer;
-        img,
-        .masonary-frame {
-            grid-row: 1 / -1;
-            grid-column: 1;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-    }
-    // @include for-size(desktop-lg) {
-    //     --colItem: 2;
-    // }
-    // @include for-size(tablet) {
-    //     --colItem: 1;
-    // }
-}
+// .masonary {
+//     --colItem: 6;
+//     column-count: var(--colItem);
+//     column-gap: 10px;
+//     &-item {
+//         margin: 0;
+//         display: grid;
+//         grid-template-rows: 1fr auto;
+//         margin-bottom: 10px;
+//         break-inside: avoid;
+//         border-radius: 0.75rem;
+//         overflow: hidden;
+//         position: relative;
+//         cursor: pointer;
+//         img,
+//         .masonary-frame {
+//             grid-row: 1 / -1;
+//             grid-column: 1;
+//             width: 100%;
+//             height: 100%;
+//             object-fit: cover;
+//         }
+//     }
+//     @include for-size(desktop-lg) {
+//         --colItem: 2;
+//     }
+//     @include for-size(tablet) {
+//         --colItem: 1;
+//     }
+// }
