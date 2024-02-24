@@ -1,4 +1,6 @@
 @import "base/color";
+@import "base/variables";
+@import "base/mixin";
 @import "components/card";
 @import "components/footer";
 @import "components/navbar";
@@ -7,6 +9,7 @@
 @import "pages/contact";
 @import "pages/cini";
 @import "pages/aboutMe";
+@import "pages/dashboard";
 
 :root {
     --menuHeight: 50px;

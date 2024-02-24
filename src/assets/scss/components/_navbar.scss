@@ -1,14 +1,15 @@
 .navbar {
     position: sticky !important;
     top: 0;
+    z-index: 1070;
 }
 
 .header {
     position: sticky !important;
-    top: 0;
+    top: 58px;
     border: 1px solid rgb(236, 235, 235);
     background-color: rgba($color: #f8f8f8, $alpha: 1);
-    z-index: -50;
+    z-index: 1060;
 }
 .nav-link {
     position: relative;
