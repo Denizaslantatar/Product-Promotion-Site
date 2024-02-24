@@ -36,7 +36,7 @@ export default {
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="/urunler-mimber">Mimber</a></li>
                             <li><a class="dropdown-item" href="/urunler-mihrap">Mihrap</a></li>
-                            <li><a class="dropdown-item" href="#">Kürsü</a></li>
+                            <li><a class="dropdown-item" href="/urunler-kursuler">Kürsü</a></li>
                             <li><a class="dropdown-item" href="/urunler-muezzinlik">Müezzinlik</a></li>
                             <li><a class="dropdown-item" href="/urunler-karo">Karolar</a></li>
                             <li><a class="dropdown-item" href="#">Kenar Sular</a></li>
