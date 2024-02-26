@@ -38,7 +38,12 @@ export default {
                             <li><a class="dropdown-item" href="/urunler-mihrap">Mihrap</a></li>
                             <li><a class="dropdown-item" href="/urunler-kursuler">Kürsü</a></li>
                             <li><a class="dropdown-item" href="/urunler-muezzinlik">Müezzinlik</a></li>
-                            <li><a class="dropdown-item" href="/urunler-karo">Karolar</a></li>
+                            <li>
+                                <a class="dropdown-item" href="/urunler-karo">Karolar</a>
+                                <ul>
+                                    <li><a class="dropdown-item" href="/urunler-karo">Karolar</a></li>
+                                </ul>
+                            </li>
                             <li><a class="dropdown-item" href="#">Kenar Sular</a></li>
                         </ul>
                     </li>
