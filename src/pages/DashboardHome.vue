@@ -3,7 +3,7 @@ export default {};
 </script>
 <template>
     <header id="header">
-        <h2 class="text-center p-2">Anasayfa</h2>
+        <h5 class="text-center p-2">Anasayfa</h5>
     </header>
     <section class="section-about">
         <div class="u-center-text u-margin-bottom-big">
