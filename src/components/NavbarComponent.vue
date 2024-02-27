@@ -44,6 +44,12 @@ export default {
                                     <li><a class="dropdown-item" href="/urunler-karo">Karolar</a></li>
                                 </ul>
                             </li>
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#">Duvar Karolar</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">10*20 Karolar</a></li>
+                                </ul>
+                            </li>
                             <li><a class="dropdown-item" href="#">Kenar Sular</a></li>
                         </ul>
                     </li>
