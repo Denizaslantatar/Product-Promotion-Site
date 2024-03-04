@@ -28,9 +28,9 @@ export default {
                     <li class="nav-item">
                         <router-link class="nav-link active text-white" aria-current="page" to="/cini-sanati">Çini Sanatı</router-link>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <router-link class="nav-link text-white" to="/galeri">Galeri</router-link>
-                    </li>
+                    </li> -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Ürünler </a>
                         <ul class="dropdown-menu">
