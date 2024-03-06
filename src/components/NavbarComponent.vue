@@ -39,9 +39,9 @@ export default {
                             <li><a class="dropdown-item" href="/urunler-kursuler">Kürsü</a></li>
                             <li><a class="dropdown-item" href="/urunler-muezzinlik">Müezzinlik</a></li>
                             <li>
-                                <a class="dropdown-item" href="/urunler-karo">Karolar</a>
+                                <a class="dropdown-item" href="/urunler-karo">Yer Karolar</a>
                                 <ul>
-                                    <li><a class="dropdown-item" href="/urunler-karo">Karolar</a></li>
+                                    <li><a class="dropdown-item" href="/urunler-karo">Yer Karolar</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown-submenu">
