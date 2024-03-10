@@ -40,19 +40,16 @@ export default {
                     <h5 class="text-uppercase mb-1">Hizmetlerimiz</h5>
                     <ul class="list-unstyled">
                         <li class="mb-1">
-                            <span class="text-white">Cami çinicilik</span>
+                            <span class="text-white">Cami Çinicilik</span>
                         </li>
                         <li class="mb-1">
-                            <span class="text-white">Otel çinicilik</span>
+                            <span class="text-white">Otel ve Hamam Çinicilik</span>
                         </li>
                         <li class="mb-1">
-                            <span class="text-white">Hamam Çinicilik</span>
+                            <span class="text-white">Villa Çinicilik</span>
                         </li>
                         <li class="mb-1">
                             <span class="text-white">Şadırvan Çinicilik</span>
-                        </li>
-                        <li class="mb-1">
-                            <span class="text-white">Villa çinicilik</span>
                         </li>
                         <li class="mb-1">
                             <span class="text-white">Nakkaş</span>
@@ -111,7 +108,7 @@ export default {
         </div>
         <!-- Grid container -->
         <div class="text-center p-2" style="background-color: rgba(1, 15, 5, 0.2)">
-            © 2020 Cami Çinicilik:
+            ©{{ new Date().getFullYear() }} Cami Çinicilik:
             <span class="text-white" style="font-style: italic">Tüm hakları saklıdır.</span>
         </div>
     </footer>

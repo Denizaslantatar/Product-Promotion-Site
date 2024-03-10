@@ -17,7 +17,7 @@ export default {
     <header id="header">
         <h5 class="text-center p-2">İletişim</h5>
     </header>
-    <main>
+    <main id="contactPage">
         <section id="contact">
             <div class="container">
                 <div class="row">
@@ -48,7 +48,7 @@ export default {
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d198657.2214738435!2d40.346006281109446!3d38.92354126193018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4073ce047db64a55%3A0x2ebaccc1c7583d80!2zQmluZ8O2bCBNZXJrZXovQmluZ8O2bA!5e0!3m2!1str!2str!4v1706536326118!5m2!1str!2str"
                             width="100%"
                             height="450"
-                            style="border: 0"
+                            style="border: 2px solid #cfcfcf"
                             allowfullscreen=""
                             loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"
