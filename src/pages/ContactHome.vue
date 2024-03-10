@@ -39,9 +39,8 @@ export default {
                         </ul>
                     </div>
                     <div class="text-center">
-                        <div class="spinner-border" role="status" v-if="isLoading">
-                            <span class="visually-hidden">Loading...</span>
-                        </div>
+                        <Spinner v-if="isLoading" />
+                        <span class="visually-hidden">Loading...</span>
                     </div>
                     <div class="col-md-12">
                         <iframe
