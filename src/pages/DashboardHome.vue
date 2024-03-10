@@ -13,11 +13,8 @@ export default {};
             <div class="col-1-of-2">
                 <h3 class="heading-tertiary u-margin-bottom-small">Ayhan Koşunalp</h3>
                 <p class="paragraph">Eşsiz bir sanatın ve kültürel mirasın izlerini süren çinicilik hizmetlerimizle tanışın.</p>
-
                 <h3 class="heading-tertiary u-margin-bottom-small">Live adventures like you never have before</h3>
                 <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nulla deserunt voluptatum nam.</p>
-
-                <a href="#" class="btn-text">Learn more &rarr;</a>
             </div>
             <div class="col-1-of-2">
                 <div class="composition">

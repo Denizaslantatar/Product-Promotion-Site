@@ -1,0 +1,40 @@
+/*=========Theme Colors===========*/
+$bg-color: #fff;
+$text-color: #333;
+
+/*=========Custom Colors===========*/
+$white: #fff;
+$gray: #7d8288;
+$silver: #dfe7e9;
+/*=========Default Colors===========*/
+
+$primary: #2f3a8f;
+$primary-light: #8c9eee;
+$primary-dark: #183f7a;
+$success: #69ca71;
+$success-light: #c3e4ca;
+$success-dark: #179131;
+$danger: #cf4033;
+$warning: #fcc444;
+$info: #4a73b3;
+$secondary: #666;
+$light: #f8fafb;
+$dark: #222;
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "success": $success,
+    "info": $info,
+    "warning": $warning,
+    "danger": $danger,
+    "light": $light,
+    "dark": $dark,
+);
+$custom-colors: (
+    "white": $white,
+    "gray": $gray,
+    "silver": $silver,
+);
+$theme-colors: map-merge($theme-colors, $custom-colors);
+/*======================*/

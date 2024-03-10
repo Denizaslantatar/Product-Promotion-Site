@@ -9,9 +9,9 @@ export default {
 };
 </script>
 <template>
-    <div class="header">
+    <header class="header">
         <h5 class="text-center p-2">Galeri</h5>
-    </div>
+    </header>
     <!-- <div class="gallery">
         <span style="--i: 1">
             <img src="https://images4.alphacoders.com/678/thumb-1920-678317.jpg" alt="" />
