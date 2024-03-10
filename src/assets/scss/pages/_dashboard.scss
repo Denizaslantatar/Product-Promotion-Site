@@ -70,7 +70,7 @@
     }
 }
 .composition__photo:hover {
-    outline: 0.5rem solid #cd2626;
+    outline: 0.5rem solid #096479;
     transform: scale(1.05) translateY(-0.5rem);
     box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
     z-index: 20;
@@ -87,7 +87,6 @@
 .heading-tertiary {
     font-size: $default-font-size;
     font-weight: 650;
-    text-transform: uppercase;
 }
 .col-1-of-2 {
     width: calc((100% - #{$gutter-horizontal}) / 2);

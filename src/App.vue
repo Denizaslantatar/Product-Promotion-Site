@@ -27,6 +27,6 @@ export default {
     z-index: 9999;
 }
 .info {
-    background-color: #cd2626;
+    background-color: #096479;
 }
 </style>

@@ -8,10 +8,13 @@
     z-index: -50;
 }
 .mySwiper {
-    width: 100%;
+    width: 50%;
     height: 60%;
     img {
+        display: block;
         width: 100%;
         height: 100%;
+        border: 10px outset #ffff;
+        object-fit: cover;
     }
 }

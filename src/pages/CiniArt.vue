@@ -13,8 +13,8 @@ export default {
         <h5 class="text-center p-2">Çini Sanatı</h5>
     </header>
     <main id="ciniArt">
-        <div class="container">
-            <img src="../../public/images/CamiMihrap.webp" alt="Çini Sanatı" class="img-fluid" />
+        <div class="container p-3">
+            <img src="../../public/images/CamiMihrap.webp" alt="Çini Sanatı" class="img-fluid cini" />
             <h5 class="text-center p-2">Çini Sanatı</h5>
             <p>
                 Çini sanatı, binlerce yıllık bir geçmişe sahip olan Türk el sanatlarından biridir. Çini, genellikle sır altı tekniği ile yapılan seramik süsleme sanatıdır. Bu sanatta çini üzerine

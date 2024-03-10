@@ -17,9 +17,20 @@ export default {
                 <!--Grid column-->
                 <div class="col-lg-3 col-md-6 mb-md-0 mt-1">
                     <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-1 mx-auto" style="width: 100px; height: 100px">
-                        <img src="../assets/logo.png" height="70" alt="" loading="lazy" />
+                        <img src="../assets/mosque.png" height="70" alt="" loading="lazy" />
                     </div>
-                    <p class="text-center" style="font-style: italic; font-weight: bold">Cami Çinicilik Hizmetleri</p>
+                    <p
+                        class="text-center"
+                        style="
+                            font-style: italic;
+                            font-weight: bold;
+                            background: -webkit-linear-gradient(90deg, #096479, #734dbf, #734dbf);
+                            background: linear-gradient(90deg, #096479, #734dbf, #734dbf);
+                            border-radius: 10px;
+                        "
+                    >
+                        Cami Çinicilik Hizmetleri
+                    </p>
                     <ul class="list-unstyled d-flex flex-row justify-content-center">
                         <li>
                             <a href="#"><img width="25" height="25" src="../assets/icons/icons8-facebook.svg" alt="facebook-icon" /></a>
@@ -107,9 +118,9 @@ export default {
             </div>
         </div>
         <!-- Grid container -->
-        <div class="text-center p-2 text-dark" style="background-color: #9fb6cd">
+        <div class="text-center p-2 text-white" style="background-color: #096479">
             ©{{ new Date().getFullYear() }} Cami Çinicilik:
-            <span class="text-dark" style="font-style: italic">Tüm hakları saklıdır.</span>
+            <span class="text-white" style="font-style: italic">Tüm hakları saklıdır.</span>
         </div>
     </footer>
 </template>

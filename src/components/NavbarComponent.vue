@@ -1,12 +1,5 @@
 <script>
-export default {
-    data() {
-        return {};
-    },
-    computed: {},
-    methods: {},
-    async mounted() {},
-};
+export default {};
 </script>
 <template>
     <nav class="navbar navbar-expand-lg bg-dark">
