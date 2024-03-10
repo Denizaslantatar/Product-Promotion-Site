@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-    <footer class="bg-success text-center text-lg-start text-white">
+    <footer class="text-center text-lg-start text-white bg-dark">
         <!-- Grid container -->
         <div class="container p-2">
             <div class="row my-2">
@@ -37,7 +37,7 @@ export default {
                 </div>
                 <!--Grid column-->
                 <div class="col-lg-3 col-md-6 mb-1 mb-md-0 mt-1">
-                    <h5 class="text-uppercase mb-1">Hizmetlerimiz</h5>
+                    <h5 class="text-bold mb-1">HİZMETLERİMİZ</h5>
                     <ul class="list-unstyled">
                         <li class="mb-1">
                             <span class="text-white">Cami Çinicilik</span>
@@ -107,9 +107,9 @@ export default {
             </div>
         </div>
         <!-- Grid container -->
-        <div class="text-center p-2" style="background-color: rgba(1, 15, 5, 0.2)">
+        <div class="text-center p-2 text-dark" style="background-color: #9fb6cd">
             ©{{ new Date().getFullYear() }} Cami Çinicilik:
-            <span class="text-white" style="font-style: italic">Tüm hakları saklıdır.</span>
+            <span class="text-dark" style="font-style: italic">Tüm hakları saklıdır.</span>
         </div>
     </footer>
 </template>

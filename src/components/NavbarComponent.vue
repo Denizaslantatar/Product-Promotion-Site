@@ -9,7 +9,7 @@ export default {
 };
 </script>
 <template>
-    <nav class="navbar navbar-expand-lg bg-success">
+    <nav class="navbar navbar-expand-lg bg-dark">
         <div class="container-fluid">
             <router-link class="navbar-brand text-white" to="/">Anasayfa</router-link>
             <button

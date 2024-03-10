@@ -14,7 +14,7 @@ export default {
 </script>
 <template>
     <NavbarComponent />
-    <Vue3Marquee class="info"> Sipariş vermek için Lütfen Whatsapp dan iletişime geçin </Vue3Marquee>
+    <Vue3Marquee class="info text-white"> Sipariş vermek için whatsapp dan iletişime geçebilirsiniz </Vue3Marquee>
     <RouterView />
     <a href="whatsapp://send?phone=+905555555555"><img src="../src/assets/icons/whatsapp.svg" alt="whatsapp" class="whatsapp" /></a>
     <FooterComponent />
@@ -27,6 +27,6 @@ export default {
     z-index: 9999;
 }
 .info {
-    background-color: aqua;
+    background-color: #cd2626;
 }
 </style>
