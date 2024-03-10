@@ -7,14 +7,19 @@ export default {};
     </header>
     <section class="section-about">
         <div class="u-center-text u-margin-bottom-big">
-            <h2 class="heading-secondary">Cami Çinicilik</h2>
+            <h5 class="heading-secondary">Cami Çinicilik</h5>
         </div>
         <div class="row">
             <div class="col-1-of-2">
                 <h3 class="heading-tertiary u-margin-bottom-small">Ayhan Koşunalp</h3>
-                <p class="paragraph">Eşsiz bir sanatın ve kültürel mirasın izlerini süren çinicilik hizmetlerimizle tanışın.</p>
-                <h3 class="heading-tertiary u-margin-bottom-small">Live adventures like you never have before</h3>
-                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nulla deserunt voluptatum nam.</p>
+                <p class="paragraph">
+                    Eşsiz bir sanatın ve kültürel mirasın izlerini süren çinicilik hizmetlerimizle tanışın. Çini Sanatı, yüzyıllardır camilerimizin ve diğer dini yapılarımızın ruhunu yansıtan özel bir
+                    sanattır. Her bir çini parçası, ibadetin ve maneviyatın sembolü olarak önem taşır, caminin atmosferine anlam katar. Biz, geleneksel çini ustalarıyla modern teknikleri bir araya
+                    getirerek, camilerinizin görkemini ve estetik değerini artırıyoruz.
+                </p>
+                <h4 class="heading-tertiary u-margin-bottom-small">Bizimle Neler Yapabilirsiniz?</h4>
+                <p class="paragraph">Cami çiniciliği, özelleştirilmiş çini panolar ve motiflerle cami iç dekorasyonu, mihraplar, kürsüler ve daha fazlası.</p>
+                <p class="paragraph">Çini restorasyonu, bakım hizmetleri. Teknik destek ve danışmanlık.</p>
             </div>
             <div class="col-1-of-2">
                 <div class="composition">
@@ -43,10 +48,10 @@ export default {};
             </div>
         </div>
     </section>
-    <header id="header" class="mt-5">
-        <h2 class="text-center p-2">Ürün ve Hizmetlerimiz</h2>
+    <header id="titleProduct">
+        <h3 class="text-center">Ürün ve Hizmetlerimiz</h3>
     </header>
-    <section class="products mb-5 mt-5">
+    <section class="products mb-5">
         <div id="dashCard" class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
                 <div class="card">
