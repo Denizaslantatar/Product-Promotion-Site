@@ -15,21 +15,30 @@
     position: relative;
 }
 
-//////////////////////////////////////////////////////////////
-.dropdown-submenu {
-    position: relative;
-}
-
-.dropdown-submenu a::after {
-    transform: rotate(-90deg);
-    position: absolute;
-    right: 6px;
-    top: 0.8em;
-}
-
+// Navbar Sub Menü CSS
 .dropdown-submenu .dropdown-menu {
-    top: 0;
+    display: none;
+    position: absolute;
     left: 100%;
-    margin-left: 0.1rem;
-    margin-right: 0.1rem;
+    top: 50%;
 }
+
+.dropdown-submenu:hover .dropdown-menu {
+    display: block;
+}
+// .dropdown-toggle {
+//     transition: transform 0.3s ease-in-out;
+//     transform: rotate(90deg);
+// }
+
+.nav-link {
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+.nav-link:hover {
+    background-color: $teal;
+    border-radius: 10px;
+}
+// .navbar-brand:hover {
+//     background-color: $teal;
+//     border-radius: 10px;
+// }

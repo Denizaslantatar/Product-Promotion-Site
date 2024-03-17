@@ -19,36 +19,41 @@ export default {};
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <router-link class="nav-link active text-white" aria-current="page" to="/cini-sanati">Çini Sanatı</router-link>
+                        <router-link class="nav-link text-white" aria-current="page" to="/cini-sanati">Çini Sanatı</router-link>
                     </li>
                     <!-- <li class="nav-item">
                         <router-link class="nav-link text-white" to="/galeri">Galeri</router-link>
                     </li> -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Ürünler </a>
+                        <a class="nav-link text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Ürünler </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="/urunler-mimber">Mimber</a></li>
                             <li><a class="dropdown-item" href="/urunler-mihrap">Mihrap</a></li>
                             <li><a class="dropdown-item" href="/urunler-kursuler">Kürsü</a></li>
                             <li><a class="dropdown-item" href="/urunler-muezzinlik">Müezzinlik</a></li>
-                            <li>
+                            <!-- <li>
                                 <a class="dropdown-item" href="/urunler-karo">Yer Karolar</a>
-                                <ul>
-                                    <li><a class="dropdown-item" href="/urunler-karo">Yer Karolar</a></li>
+                            </li> -->
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item" href="#">Duvar Karolar <img class="dropdown-toggle" src="/public/images/toggle.png" alt="yan menü" /></a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">20x20 Karolar</a></li>
+                                    <li><a class="dropdown-item" href="#">20x25 Karolar</a></li>
+                                    <li><a class="dropdown-item" href="#">20x40 Karolar</a></li>
+                                    <li><a class="dropdown-item" href="#">21x23 Altıgen Karolar</a></li>
+                                    <li><a class="dropdown-item" href="#">25x40 Desenli Karolar</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown-submenu">
-                                <a class="dropdown-item dropdown-toggle" href="#">Duvar Karolar</a>
+                                <a class="dropdown-item" href="#">Kenar Sular <img class="dropdown-toggle" src="/public/images/toggle.png" alt="yan menü" /></a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">10*20 Karolar</a></li>
+                                    <li><a class="dropdown-item" href="/urunler-kenar-sular-10x20">10x20 Kenar</a></li>
+                                    <li><a class="dropdown-item" href="/urunler-kenar-sular-15x20">15x20 Kenar</a></li>
+                                    <li><a class="dropdown-item" href="/urunler-kenar-sular-20x20">20x20 Kenar</a></li>
+                                    <li><a class="dropdown-item" href="/urunler-kenar-sular-20x25">20x25 Kenar</a></li>
+                                    <li><a class="dropdown-item" href="/urunler-kenar-sular-25x40">25x40 Kenar</a></li>
                                 </ul>
                             </li>
-                            <li><a class="dropdown-item" href="#">Kenar Sular</a></li>
-                            <li><a class="dropdown-item" href="/urunler-kenar-sular-10x20">10x20 Kenar</a></li>
-                            <li><a class="dropdown-item" href="/urunler-kenar-sular-15x20">15x20 Kenar</a></li>
-                            <li><a class="dropdown-item" href="/urunler-kenar-sular-20x20">20x20 Kenar</a></li>
-                            <li><a class="dropdown-item" href="/urunler-kenar-sular-20x25">20x25 Kenar</a></li>
-                            <li><a class="dropdown-item" href="/urunler-kenar-sular-25x40">25x40 Kenar</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
