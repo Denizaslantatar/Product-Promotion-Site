@@ -10,6 +10,7 @@ import MimberHome from '../pages/Products/MimberHome.vue'
 import KaroHome from '../pages/Products/KaroHome.vue'
 import MuezzinlikHome from "../pages/Products/MuezzinlikHome.vue"
 import KursuHome from "../pages/Products/KursuHome.vue";
+import Kenar10x20 from "../pages/Products/KenarSular/Kenar10x20.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -59,10 +60,15 @@ const router = createRouter({
       name: 'urunler-muezzinlik',
       component: MuezzinlikHome,
     },
-        {
+    {
       path: '/urunler-kursuler',
       name: 'urunler-kursuler',
       component: KursuHome,
+    },
+    {
+      path: '/urunler-kenar-sular-10x20',
+      name: 'urunler-kenar-sular-10x20',
+      component: Kenar10x20,
     },
   ]
 })

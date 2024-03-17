@@ -44,6 +44,11 @@ export default {};
                                 </ul>
                             </li>
                             <li><a class="dropdown-item" href="#">Kenar Sular</a></li>
+                            <li><a class="dropdown-item" href="/urunler-kenar-sular-10x20">10x20 Kenar</a></li>
+                            <li><a class="dropdown-item" href="#">15x20 Kenar</a></li>
+                            <li><a class="dropdown-item" href="#">20x20 Kenar</a></li>
+                            <li><a class="dropdown-item" href="#">20x25 Kenar</a></li>
+                            <li><a class="dropdown-item" href="#">25x40 Kenar</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
