@@ -15,6 +15,7 @@ import Kenar15x20 from "../pages/Products/KenarSular/Kenar15x20.vue";
 import Kenar20x20 from "../pages/Products/KenarSular/Kenar20x20.vue";
 import Kenar20x25 from "../pages/Products/KenarSular/Kenar20x25.vue";
 import Kenar25x40 from "../pages/Products/KenarSular/Kenar25x40.vue";
+import DuvarKaro20x20 from '@/pages/Products/DuvarKarolar/DuvarKaro20x20.vue'
 
 
 const router = createRouter({
@@ -94,7 +95,12 @@ const router = createRouter({
       path: '/urunler-kenar-sular-25x40',
       name: 'urunler-kenar-sular-25x40',
       component: Kenar25x40,
-    }
+    },
+    {
+      path: '/urunler-duvar-karolar-20x20',
+      name: 'urunler-duvar-karolar-20x20',
+      component: DuvarKaro20x20,
+    },
   ]
 })
 

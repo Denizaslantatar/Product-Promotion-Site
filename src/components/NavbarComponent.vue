@@ -37,7 +37,7 @@ export default {};
                             <li class="dropdown-submenu">
                                 <a class="dropdown-item" href="#">Duvar Karolar <img class="dropdown-toggle" src="/public/images/toggle.png" alt="yan menü" /></a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">20x20 Karolar</a></li>
+                                    <li><a class="dropdown-item" href="/urunler-duvar-karolar-20x20">20x20 Karolar</a></li>
                                     <li><a class="dropdown-item" href="#">20x25 Karolar</a></li>
                                     <li><a class="dropdown-item" href="#">20x40 Karolar</a></li>
                                     <li><a class="dropdown-item" href="#">21x23 Altıgen Karolar</a></li>
