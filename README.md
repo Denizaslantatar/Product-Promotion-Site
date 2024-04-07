@@ -108,7 +108,7 @@ For support, email jsdenizas@gmail.com.
 
 ## Used technologies
 
-**Client:** Vue 3, Vite, Scss,
+**Client:** Vue 3, Vite, Javascript, Html, Scss.
 
   
   
