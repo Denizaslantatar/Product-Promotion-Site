@@ -1,5 +1,27 @@
 <script>
-export default {};
+import {ref} from "vue";
+import axios from "axios";
+export default {
+    setup() {
+        const responseText = ref(null);
+        axios({
+            method: "get",
+            url: "https://api.collectapi.com/pray/all?data.city=istanbul",
+            headers: {
+                "content-type": "application/json",
+                authorization: "apikey 1AeKW1BTMzryeNUAmlpSBX:0LnJ7pSJRH3dQT2p7wKBvw",
+            },
+        })
+            .then((response) => {
+                responseText.value = response.data;
+                // console.log(responseText.value);
+            })
+            .catch((error) => {
+                console.error(error);
+            });
+        return {responseText};
+    },
+};
 </script>
 <template>
     <header id="header">
@@ -124,4 +146,35 @@ export default {};
             </div>
         </div>
     </section>
+
+    <header id="titleEzan">
+        <h3 class="text-center">İstanbul için Ezan Vakitleri</h3>
+    </header>
+    <section class="ezanVakitleri">
+        <div class="col-md-8">
+            <table class="table table-bordered table-responsive-sm">
+                <thead>
+                    <tr>
+                        <th scope="col" style="background-color: teal" class="text-white">Ezan Vakitleri</th>
+                        <th scope="col" style="background-color: teal" class="text-white">Ezan Saatleri</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <template v-for="item in responseText?.result" :key="item">
+                        <tr class="table-Light">
+                            <td>{{ item.vakit }}</td>
+                            <td>{{ item.saat }}</td>
+                        </tr>
+                    </template>
+                </tbody>
+            </table>
+        </div>
+    </section>
 </template>
+<style scoped>
+.col-md-8 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+</style>
