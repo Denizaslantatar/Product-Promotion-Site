@@ -25,7 +25,7 @@ export default {};
                         <router-link class="nav-link text-white" to="/galeri">Galeri</router-link>
                     </li> -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Ürünler </a>
+                        <a class="nav-link text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ürünler</a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="/urunler-mimber">Mimber</a></li>
                             <li><a class="dropdown-item" href="/urunler-mihrap">Mihrap</a></li>
@@ -35,7 +35,10 @@ export default {};
                                 <a class="dropdown-item" href="/urunler-karo">Yer Karolar</a>
                             </li> -->
                             <li class="dropdown-submenu">
-                                <a class="dropdown-item" href="#">Duvar Karolar <img class="dropdown-toggle" src="/public/images/toggle.png" alt="yan menü" /></a>
+                                <a class="dropdown-item" href="#">
+                                    Duvar Karolar
+                                    <img class="dropdown-toggle" src="/public/images/toggle.png" alt="yan menü" />
+                                </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="/urunler-duvar-karolar-20x20">20x20 Karolar</a></li>
                                     <li><a class="dropdown-item" href="#">20x25 Karolar</a></li>
@@ -45,7 +48,10 @@ export default {};
                                 </ul>
                             </li>
                             <li class="dropdown-submenu">
-                                <a class="dropdown-item" href="#">Kenar Sular <img class="dropdown-toggle" src="/public/images/toggle.png" alt="yan menü" /></a>
+                                <a class="dropdown-item" href="#">
+                                    Kenar Sular
+                                    <img class="dropdown-toggle" src="/public/images/toggle.png" alt="yan menü" />
+                                </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="/urunler-kenar-sular-10x20">10x20 Kenar</a></li>
                                     <li><a class="dropdown-item" href="/urunler-kenar-sular-15x20">15x20 Kenar</a></li>
