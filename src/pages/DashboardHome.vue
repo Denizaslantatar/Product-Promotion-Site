@@ -28,11 +28,9 @@ export default {
         <h5 class="text-center p-2">Anasayfa</h5>
     </header>
     <section class="section-about">
-        <div class="u-center-text u-margin-bottom-big">
-            <h5 class="heading-secondary">Cami Çinicilik</h5>
-        </div>
         <div class="row">
             <div class="col-1-of-2">
+                <h5>Cami Çinicilik</h5>
                 <h3 class="heading-tertiary u-margin-bottom-small">Ayhan Koşunalp</h3>
                 <p class="paragraph">
                     Eşsiz bir sanatın ve kültürel mirasın izlerini süren çinicilik hizmetlerimizle tanışın. Çini Sanatı, yüzyıllardır camilerimizin ve diğer dini yapılarımızın ruhunu yansıtan özel bir
@@ -40,8 +38,10 @@ export default {
                     getirerek, camilerinizin görkemini ve estetik değerini artırıyoruz.
                 </p>
                 <h4 class="heading-tertiary u-margin-bottom-small">Bizimle Neler Yapabilirsiniz?</h4>
-                <p class="paragraph">Cami çiniciliği, özelleştirilmiş çini panolar ve motiflerle cami iç dekorasyonu, mihraplar, kürsüler ve daha fazlası.</p>
-                <p class="paragraph">Çini restorasyonu, bakım hizmetleri. Teknik destek ve danışmanlık.</p>
+                <p class="paragraph">
+                    Cami çiniciliği, özelleştirilmiş çini panolar ve motiflerle cami iç dekorasyonu, mihraplar, kürsüler ve daha fazlası... Çini restorasyonu, bakım hizmetleri. Teknik destek ve
+                    danışmanlık.
+                </p>
             </div>
             <div class="col-1-of-2">
                 <div class="composition">

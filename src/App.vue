@@ -14,9 +14,9 @@ export default {
 </script>
 <template>
     <NavbarComponent />
-    <Vue3Marquee class="info text-white"> Sipariş vermek için whatsapp dan iletişime geçebilirsiniz </Vue3Marquee>
+    <Vue3Marquee class="info text-white">Sipariş vermek için whatsapp dan iletişime geçebilirsiniz</Vue3Marquee>
     <RouterView />
-    <a href="whatsapp://send?phone=+905555555555"><img src="../src/assets/icons/whatsapp.svg" alt="whatsapp" class="whatsapp" /></a>
+    <a href="whatsapp://send?phone=+905528076089"><img src="../src/assets/icons/whatsapp.svg" alt="whatsapp" class="whatsapp" /></a>
     <FooterComponent />
 </template>
 <style>
