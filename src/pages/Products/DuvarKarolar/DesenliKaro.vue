@@ -10,7 +10,7 @@ export default {
 </script>
 <template>
     <header id="header">
-        <h5 class="text-center p-2">Duvar Karolar 20x25</h5>
+        <h5 class="text-center p-2">Desenli Karolar 25x40</h5>
     </header>
     <section id="karoCard">
         <div class="row row-cols-1 row-cols-md-3 g-4">
