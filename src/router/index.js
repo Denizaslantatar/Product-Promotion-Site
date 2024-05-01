@@ -17,6 +17,9 @@ import Kenar20x25 from "../pages/Products/KenarSular/Kenar20x25.vue";
 import Kenar25x40 from "../pages/Products/KenarSular/Kenar25x40.vue";
 import DuvarKaro20x20 from "@/pages/Products/DuvarKarolar/DuvarKaro20x20.vue";
 import DuvarKaro20x25 from "@/pages/Products/DuvarKarolar/DuvarKaro20x25.vue";
+import DuvarKaro20x40 from "@/pages/Products/DuvarKarolar/DuvarKaro20x40.vue";
+import AltıgenKaro from "@/pages/Products/DuvarKarolar/AltıgenKaro.vue";
+import DesenliKaro from "@/pages/Products/DuvarKarolar/DesenliKaro.vue";
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -105,6 +108,21 @@ const router = createRouter({
             path: "/urunler-duvar-karolar-20x25",
             name: "urunler-duvar-karolar-20x25",
             component: DuvarKaro20x25,
+        },
+        {
+            path: "/urunler-duvar-karolar-20x40",
+            name: "urunler-duvar-karolar-20x40",
+            component: DuvarKaro20x40,
+        },
+        {
+            path: "/urunler-altigen-karo",
+            name: "urunler-altigen-karo",
+            component: AltıgenKaro,
+        },
+        {
+            path: "/urunler-desenli-karo",
+            name: "urunler-desenli-karo",
+            component: DesenliKaro,
         },
     ],
 });
