@@ -45,8 +45,10 @@ export default {
                 :modules="modules"
                 class="mySwiper"
             >
-                <swiper-slide><img src="/public/images/cini.jpg" alt="cami" /></swiper-slide><swiper-slide><img src="/public/images/hamam.jpg" alt="cami" /></swiper-slide>
-                <swiper-slide><img src="/public/images/cinicami.jpg" alt="cami" /></swiper-slide><swiper-slide><img src="/public/images/dashphoto4.jpg" alt="cami" /></swiper-slide>
+                <swiper-slide><img src="/public/images/ciniKapi.webp" alt="cami" /></swiper-slide>
+                <swiper-slide><img src="/public/images/hamam.jpg" alt="cami" /></swiper-slide>
+                <swiper-slide><img src="/public/images/cinicami.jpg" alt="cami" /></swiper-slide>
+                <swiper-slide><img src="/public/images/dashphoto4.jpg" alt="cami" /></swiper-slide>
             </swiper>
         </section>
         <section id="hakkimizdaText">
